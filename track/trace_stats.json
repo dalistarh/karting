@@ -1,0 +1,78 @@
+{
+  "origin": {
+    "crs": "EPSG:4083",
+    "x": 633996.941,
+    "y": 3203023.233,
+    "sf_whiteness": 0.983,
+    "heading_deg": 10.36,
+    "note": "local x = E - x, local y = N - y, z up; axes not rotated"
+  },
+  "layouts": {
+    "senior": {
+      "centreline_m": 1101.2,
+      "nominal_m": 1281.0,
+      "diff_pct": -14.04,
+      "left_edge_m": 1131.3,
+      "right_edge_m": 1074.4,
+      "width_measured": {
+        "min": 7.11,
+        "mean": 8.22,
+        "p05": 7.6,
+        "p95": 9.7,
+        "max": 10.06
+      },
+      "width_all": {
+        "min": 7.11,
+        "mean": 8.38,
+        "max": 10.21
+      },
+      "samples": 1101,
+      "interpolated_left": 121,
+      "interpolated_right": 35
+    },
+    "junior": {
+      "centreline_m": 703.1,
+      "nominal_m": 865.0,
+      "diff_pct": -18.72,
+      "left_edge_m": 728.9,
+      "right_edge_m": 679.4,
+      "width_measured": {
+        "min": 6.9,
+        "mean": 7.78,
+        "p05": 7.25,
+        "p95": 8.39,
+        "max": 9.39
+      },
+      "width_all": {
+        "min": 6.9,
+        "mean": 7.81,
+        "max": 9.4
+      },
+      "samples": 703,
+      "interpolated_left": 36,
+      "interpolated_right": 0
+    },
+    "senior_b": {
+      "centreline_m": 1309.2,
+      "nominal_m": 1281.0,
+      "diff_pct": 2.2,
+      "left_edge_m": 1340.1,
+      "right_edge_m": 1285.9,
+      "width_measured": {
+        "min": 6.91,
+        "mean": 8.11,
+        "p05": 7.35,
+        "p95": 9.74,
+        "max": 10.69
+      },
+      "width_all": {
+        "min": 6.34,
+        "mean": 8.22,
+        "max": 10.69
+      },
+      "samples": 1309,
+      "interpolated_left": 147,
+      "interpolated_right": 90
+    }
+  }
+}

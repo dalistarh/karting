@@ -1,7 +1,7 @@
 # One command rebuilds everything from data/:   make all
 # Fresh checkout:                                make setup && make all
 
-PY := .venv/bin/python -I
+PY := .venv/bin/python
 
 .PHONY: setup fetch prepare trace all clean
 
@@ -17,6 +17,7 @@ prepare: fetch
 
 trace: prepare
 	$(PY) scripts/trace.py
+	$(PY) scripts/trace_check.py
 
 all: trace
 

@@ -1,0 +1,8 @@
+{
+  "crs": "EPSG:4083",
+  "x": 633996.941,
+  "y": 3203023.233,
+  "sf_whiteness": 0.983,
+  "heading_deg": 10.36,
+  "note": "local x = E - x, local y = N - y, z up; axes not rotated"
+}
